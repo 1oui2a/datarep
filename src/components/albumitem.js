@@ -32,7 +32,7 @@ const AlbumItem = (props) => {
             <footer>{props.myalbum.artist}</footer>
           </blockquote>
         </Card.Body>
-        <Link className="btn btn-primary" to={"/edit/" + props.myalbum._id}>Update</Link>
+        <Link className="btn btn-primary" to={"/editalbum/" + props.myalbum._id}>Update</Link>
         <Button className="btn btn-danger" onClick={handleDelete}>Delete</Button>
       </Card>
     </div>
