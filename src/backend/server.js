@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json()); 
 
 const mongoose = require('mongoose');
-mongoose.connect('mongodb+srv://louizamoran:Buster2012!@cluster0.lb8cy.mongodb.net/');
+mongoose.connect('mongodb+srv://louizamoran:Buster2012@cluster0.lb8cy.mongodb.net/');
 
 
 const albumSchema = new mongoose.Schema({
